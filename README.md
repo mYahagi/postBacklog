@@ -3,3 +3,4 @@
 * apiKeyは予めBacklog側で発行しておいたものを利用する
 * AWS lambdaにおいて使用している
 * apigatewayと連携してgithubからはそこをhook先のurlとして指定している
+* patternに自プロジェクトに適した正規表現を定義してあげれば動くはず
