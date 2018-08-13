@@ -1,5 +1,5 @@
 # githubのコミットURLとBacklogの課題番号を紐づける
-## コミットメッセージにBacklogの課題番号を含めてpushすればそれを検出して該当の課題にコミット時のURLとコミットメッセージをコメントする
-## apiKeyは予めBacklog側で発行しておいたものを利用する
-## lambdaにおいてる
-## apigatewayと連携してgithubからはそこをhook先のurlとして指定している
+* コミットメッセージにBacklogの課題番号を含めてpushすればそれを検出して該当の課題にコミット時のURLとコミットメッセージをコメントする
+* apiKeyは予めBacklog側で発行しておいたものを利用する
+* AWS lambdaにおいて使用している
+* apigatewayと連携してgithubからはそこをhook先のurlとして指定している
