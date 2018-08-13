@@ -4,3 +4,5 @@
 * AWS lambdaにおいて使用している
 * apigatewayと連携してgithubからはそこをhook先のurlとして指定している
 * patternに自プロジェクトに適した正規表現を定義してあげれば動くはず
+
+https://qiita.com/yahagin/items/d4237c9702952e7f4795
