@@ -11,7 +11,7 @@ https://qiita.com/yahagin/items/d4237c9702952e7f4795
 pattern1
 * git commit -m " 課題番号 コミットコメント"
 
-pattern2 課題番号複数紐付けれる
+pattern2 課題番号複数紐付け可
 * git commit -m " 課題番号1 課題番号2 ... コミットコメント"
 
 pattern3 ローカルでコミット分けても個々の課題に紐付け可能
