@@ -6,3 +6,15 @@
 * patternに自プロジェクトに適した正規表現を定義してあげれば動くはず
 
 https://qiita.com/yahagin/items/d4237c9702952e7f4795
+
+# 使い方
+pattern1
+* git commit -m " 課題番号 コミットコメント"
+
+pattern2 課題番号複数紐付けれる
+* git commit -m " 課題番号1 課題番号2 ... コミットコメント"
+
+pattern3 ローカルでコミット分けても個々の課題に紐付け可能
+* git commit -m " 課題番号1 コミットコメント"
+* git commit -m " 課題番号2 コミットコメント"
+* git push origin hoge
